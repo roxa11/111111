@@ -1,10 +1,3 @@
-/* ============================================================
-   CityFlow Semey — app.js (Firebase Realtime Database edition)
-   ============================================================
-   Полный аналог Supabase-версии, но на Firebase RTDB.
-   Фотографии сохраняются как сжатый base64 прямо в RTDB
-   (для прототипа / хакатона этого достаточно).
-   ============================================================ */
 
 const APP_CONFIG = {
     FIREBASE: {
@@ -1109,3 +1102,4 @@ const App = {
 };
 
 window.addEventListener("DOMContentLoaded", () => App.init());
+
