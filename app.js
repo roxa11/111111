@@ -1,22 +1,13 @@
 
 const APP_CONFIG = {
-    FIREBASE: {
-        apiKey: "AIzaSyDyUUoxihnctmeBuAzluM6EPWHqpCAGw-0",
-        authDomain: "semey-e0bc3.firebaseapp.com",
-        databaseURL: "https://semey-e0bc3-default-rtdb.firebaseio.com",
-        projectId: "semey-e0bc3",
-        storageBucket: "semey-e0bc3.firebasestorage.app",
-        messagingSenderId: "546395953015",
-        appId: "1:546395953015:web:e5093b0d1f28786899f372",
-        measurementId: "G-VYHQWF6BY9"
-    },
+    // ВСТАВЬ СВОЮ ССЫЛКУ ИЗ ШАГА 2 НИЖЕ
+    SCRIPT_URL: "https://script.google.com/macros/s/ВАШ_ID/exec", 
     ADMIN_IINS: ["999999999999"],
     WORKER_DIRECTORY: {
         "222222222222": "ТОО Semey Road Service",
         "333333333333": "ТОО Semey Light Team"
     },
-    SLA_HOURS: 48,
-    POLL_INTERVAL_MS: 25000
+    SLA_HOURS: 48
 };
 
 const CATEGORY_LABELS = {
@@ -1102,4 +1093,5 @@ const App = {
 };
 
 window.addEventListener("DOMContentLoaded", () => App.init());
+
 
